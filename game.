@@ -1,0 +1,27 @@
+print("choose one")
+def loser():
+    retard = input("[1]rock [2]paper [3]scissors        | ")
+    print("==========================================")
+    if retard == ("1"):
+        print("the computer chooses paper. you lose")
+    elif retard == ("2"):
+        print(" the computer chooses scissors, you lose")
+    elif retard == ("3"):
+        print("the computer chooses rock, you lose")
+    else:
+        print("you're a retard")
+
+def bum():
+    shit = input("wanna try again? [y] [n]            | ")
+    print("==========================================")
+    if shit == ("y"):
+        loser()
+        bum()
+    elif shit == ("n"):
+        print("you're a sore loser")
+    else:
+        print("learn to type, faggot")
+
+loser()
+bum()
+
